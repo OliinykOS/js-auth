@@ -104,7 +104,7 @@ export class Form{
         } else if (status === 'error') {
             el.className = 'alert alert--error'
         } else {
-          //  el.className = 'alert alert--disabled'
+            el.className = 'alert alert--disabled'
         }
 
         if (text) el.innerText = text
