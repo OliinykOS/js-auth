@@ -81,7 +81,7 @@ class SignupForm extends Form{
                 const data = await res.json()
 
                 if (res.ok) {
-                    this.setAlert('succcess', data.message)
+                    this.setAlert('success', data.message)
                 }else{
                     this.setAlert('error', data.message)
                 }
